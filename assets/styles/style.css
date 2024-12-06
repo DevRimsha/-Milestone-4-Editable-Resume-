@@ -1,0 +1,129 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 2em 0;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #0056b3;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 0.5em 0;
+  font-size: 1.2em;
+}
+
+section {
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 1000px;
+}
+
+section h2 {
+  color: #007bff;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+section p, section ul {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+section li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+section li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-size: 1.2em;
+}
+
+#resume-form {
+  margin-top: 30px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#resume-form label {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+#resume-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.1em;
+}
+
+#resume-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#resume-form button:hover {
+  background-color: #0056b3;
+}
+
+#resume-display {
+  margin-top: 30px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#resume-display p {
+  font-size: 1.2em;
+  color: #333;
+  margin: 10px 0;
+}
+
+#resume-display p span {
+  font-weight: bold;
+  color: #007bff;
+}
